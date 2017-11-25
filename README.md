@@ -5,13 +5,14 @@ A.A. Please, if you are planning to re-use this data, make proper credits to my 
 ## LET'S BEGIN!
 
 ### 1. If you come from a fresh-clean installation, install/update your drivers
-2. Disable Windows Update service:
+
+### 2. Disable Windows Update service:
    - Search for "services"
    - Find Windows Update
    - Right click on it -> Boot type: Disabled -> Stop service
    
 ### 3. Disable superfetch/Ottimizzazione avvio (in italian)
-    A.A. I have analyzed this service, and I discovered that it could be the first useful Windows service ... why am I saying that? Do you think I'm crazy?
+   A.A. I have analyzed this service, and I discovered that it could be the first useful Windows service ... why am I saying that? Do you think I'm crazy?
    Well, on the web you can find a lot of threads, dealing with such Superfecth, how bad it is, how much space it wastes, how much hdd/cpu it uses at boot and so on.
    I made some tests and I have discovered some curious aspects.
    - If you disable its service: bios boot is the same, Desktop loading is slower (noticeably), no 100% hdd usage by it (of course).
