@@ -1,5 +1,6 @@
 # Windows-Tweaks
-List of useful tweaks to keep your Windows machine fast as the first day.
+List of useful tweaks to keep your Windows machine as fast as the first day.
+
 **A.A.** Please, if you are planning to re-use this data, make proper credits to my profile, I spent hours to get the best configuration without messing up my system.
 
 ## LET'S BEGIN!
