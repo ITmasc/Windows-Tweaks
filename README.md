@@ -1,6 +1,6 @@
 # Windows-Tweaks
 List of useful tweaks to keep your Windows machine fast as the first day.
-A.A. Please, if you are planning to re-use this data, make proper credits to my profile, I spent hours to get the best configuration without messing up my system.
+**A.A.** Please, if you are planning to re-use this data, make proper credits to my profile, I spent hours to get the best configuration without messing up my system.
 
 ## LET'S BEGIN!
 
@@ -12,13 +12,13 @@ A.A. Please, if you are planning to re-use this data, make proper credits to my 
    - Right click on it -> Boot type: Disabled -> Stop service
    
 ### 3. Disable superfetch/Ottimizzazione avvio (in italian)
-   A.A. I have analyzed this service, and I discovered that it could be the first useful Windows service ... why am I saying that? Do you think I'm crazy?
+   **A.A.** I have analyzed this service, and I discovered that it could be the first useful Windows service ... why am I saying that? Do you think I'm crazy?
    Well, on the web you can find a lot of threads, dealing with such Superfecth, how bad it is, how much space it wastes, how much hdd/cpu it uses at boot and so on.
    I made some tests and I have discovered some curious aspects.
    - If you disable its service: bios boot is the same, Desktop loading is slower (noticeably), no 100% hdd usage by it (of course).
    - If you have it enabled: Desktop loading is fast, sometimes when Desktop has been loaded, hdd usage is at 100%
    
-   Why is it happening?
+   **Why is it happening?**
    SuperFetch service (Ottimizzazione avvio) purpose is to cache most used resources in order to speed up boot (that should be obvious). 
    But why is it always overloading the hdd on boot?
    - It loads stuff from the superfetch file.
@@ -26,7 +26,7 @@ A.A. Please, if you are planning to re-use this data, make proper credits to my 
    
    Now that you have cleared your ideas, you should probably know what to to.
    
-   STEPS TO DISABLE IT
+   #### STEPS TO DISABLE IT
    - Search for "services"
    - Once opened, find the Superfetch/Ottimizzazione avvio service
    - Set the boot type to Disabled
